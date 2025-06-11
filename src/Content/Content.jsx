@@ -2,7 +2,7 @@ import React from 'react';
 import './Content.scss';
 import mainImage from '../images/Photo1.jpg';
 import mainImage2 from '../images/Photo2.jpg';
-import mainImage3 from '../images/Tn7k9kpTURBXy8zMzJjNGUyMTM1NDU4MGJiM2VlNzEzMjMyNTFmY2MzOS5qcGeSlQLNBLAAwsOVAgDNAu7Cw94AA6EwAaExAaEzww.jpg';
+import mainImage3 from '../images/Photo7.jpg';
 import mainImage4 from '../images/Photo3.jpg';
 import mainImage5 from '../images/Photo6.jpg';
 import mainImage6 from '../images/Photo4.jpg';
