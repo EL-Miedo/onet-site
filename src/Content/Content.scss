@@ -1,0 +1,123 @@
+.content {
+  max-width: 1300px;
+  margin: 10px auto 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+
+  .news-section {
+    display: flex;
+    gap: 15px;
+
+    .main-news {
+      flex: 3;
+      border: 1px solid #ccc;
+      padding: 10px;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin: 10px 0 5px;
+      }
+
+      p {
+        margin: 5px 0;
+        font-weight: bold;
+      }
+    }
+
+    .mid-news {
+      flex: 2;
+      border: 1px solid #ccc;
+      padding: 10px;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 1rem;
+        margin: 0;
+      }
+    }
+
+    .side-news {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .side-news-item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+
+        img {
+          width: 70px;
+          height: 50px;
+          object-fit: cover;
+          border-radius: 3px;
+        }
+
+        .label {
+          font-size: 0.625rem;
+          font-weight: 700;
+          padding: 2px 5px;
+          border-radius: 3px;
+          white-space: nowrap;
+        }
+
+        .live {
+          background-color: red;
+          color: white;
+        }
+
+        .brief {
+          background-color: transparent;
+          color: black;
+          border: 1px solid black;
+        }
+
+        p {
+          font-size: 0.875rem;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .news-section {
+      display: block;
+
+      .main-news,
+      .mid-news,
+      .side-news {
+        width: 100% !important;
+        margin-bottom: 20px;
+      }
+
+      .side-news-item {
+        flex-direction: column;
+        align-items: flex-start;
+
+        img {
+          width: 100%;
+          height: auto;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
