@@ -1,11 +1,11 @@
 import React from 'react';
 import './Content.scss';
-import mainImage from '../images/Без названия (12).jpg';
-import mainImage2 from '../images/Без названия (13).jpg';
+import mainImage from '../images/Photo1.jpg';
+import mainImage2 from '../images/Photo2.jpg';
 import mainImage3 from '../images/Tn7k9kpTURBXy8zMzJjNGUyMTM1NDU4MGJiM2VlNzEzMjMyNTFmY2MzOS5qcGeSlQLNBLAAwsOVAgDNAu7Cw94AA6EwAaExAaEzww.jpg';
-import mainImage4 from '../images/Без названия (14).jpg';
-import mainImage5 from '../images/michal-probierz-i-cezary-kulesza.jpg';
-import mainImage6 from '../images/Без названия (15).jpg';
+import mainImage4 from '../images/Photo3.jpg';
+import mainImage5 from '../images/Photo6.jpg';
+import mainImage6 from '../images/Photo4.jpg';
 const newsData = {
     main: {
         title: 'Kulesza wskazał winnego po Finlandii. Nie jest to Probierz ani "Lewy"',

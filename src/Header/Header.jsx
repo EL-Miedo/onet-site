@@ -1,10 +1,10 @@
 import React from 'react';
 import './Header.scss';
 
-import ad1 from '../images/Без названия 17.jpg';
-import ad2 from '../images/Без названия 17.jpg';
-import ad3 from '../images/Без названия 17.jpg';
-import ad4 from '../images/Без названия 17.jpg';
+import ad1 from '../images/Photo5.jpg';
+import ad2 from '../images/Photo5.jpg';
+import ad3 from '../images/Photo5.jpg';
+import ad4 from '../images/Photo5.jpg';
 
 export default function Header() {
     const navCategories = [
